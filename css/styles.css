@@ -63,9 +63,7 @@ nav a {
 
 /* Hero Section */
 .hero {
-    /* temporary online placeholder; replace with a local image in
-       `images/hero-lawn.jpg` once available */
-    background: url('https://via.placeholder.com/1600x900?text=Lawncare+Hero') center/cover no-repeat;
+    background: url('../images/hero-lawn.jpg') center/cover no-repeat;
     color: #ffffff;
     text-align: center;
     padding: 6rem 1rem;
@@ -123,16 +121,6 @@ footer {
 .mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
 .mb-1 { margin-bottom: 1rem; }
-
-/* List styling */
-ol {
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-ul {
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-}
 
 /* Responsive tweaks */
 @media (max-width: 768px) {
