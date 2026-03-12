@@ -63,7 +63,10 @@ nav a {
 
 /* Hero Section */
 .hero {
-    background: url('../images/hero-lawn.jpg') center/cover no-repeat;
+    /* use an online image until a local one is added */
+    background: url('https://via.placeholder.com/1600x900?text=Lawncare+Hero') center/cover no-repeat;
+    /* optionally replace the URL with '../images/hero-lawn.jpg' after
+       placing the image in an `images` directory at the project root */
     color: #ffffff;
     text-align: center;
     padding: 6rem 1rem;
